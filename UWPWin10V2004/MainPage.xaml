@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="UWPWin10V2004.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPWin10V2004"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Convert" Margin="0,681,0,0" VerticalAlignment="Top" Height="152" Width="636" HorizontalAlignment="Center" FontSize="48" Click="Button_Click"/>
+        <TextBlock x:Name="txtResult" TextWrapping="Wrap" Text="" Margin="193,197,251,474"/>
+
+    </Grid>
+</Page>

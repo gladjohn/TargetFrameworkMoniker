@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <!-- Project(s) that are dependent on this framework -->
+	  <TargetFrameworkNetStandard20>netstandard2.0</TargetFrameworkNetStandard20>
+	  
+	  <!-- Project(s) that are dependent on this framework -->
+	  <TargetFrameworkNetStandard21>netstandard2.1</TargetFrameworkNetStandard21>
+	  
+	  <!-- Project(s) that are dependent on this framework -->
+	  <TargetFrameworkNetDesktop48>net48</TargetFrameworkNetDesktop48>
+	  
+	  <!-- Project(s) that are dependent on this framework -->
+	  <TargetFrameworkNetDesktop45>net45</TargetFrameworkNetDesktop45>
+	  
+	  <!-- Project(s) that are dependent on this framework -->	  
+	  <TargetFrameworkNet5Win>net5.0-windows10.0.17763.0</TargetFrameworkNet5Win>
+	  
+	  <PlatformTarget>AnyCPU</PlatformTarget>
+	  <TargetFrameworks>$(TargetFrameworkNetStandard20);$(TargetFrameworkNetDesktop48);$(TargetFrameworkNetStandard21);$(TargetFrameworkNetDesktop45);$(TargetFrameworkNet5Win)</TargetFrameworks>
+  </PropertyGroup>
+
+</Project>
